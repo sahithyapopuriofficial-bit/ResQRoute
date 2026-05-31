@@ -24,8 +24,7 @@ Built for real-world road conditions—especially highways, rural areas, and low
 - [What was found](#what-was-found)
 - [What Worked](#what-worked)
 - [What Didn't Work and Future Improvements](#what-didnt-work-and-future-improvements)
-- [Pros and Cons of the App](#pros-and-cons-of-the-app)
-- [Demo Video](#demo-video)
+- [Pros and Cons](#pros-and-cons)
 - [Screenshots](#screenshots)
 - [Libraries](#libraries)
 - [References](#references)
@@ -203,3 +202,74 @@ Future improvements:
 - Enhance location tracking using GPS + network + Wi-Fi for faster and more accurate emergency location sharing.
 - Reduce false positives using multi-layer validation combining AI prediction and user behavior patterns.
 - Add direct integration with emergency services like ambulance or police for faster response time.
+
+# Pros and Cons
+### Pros
+- Faster emergency response
+- Automatic accident detection
+- Automatic SOS activation
+- Fake alert prevention
+- Smart hospital recommendation
+- Offline mode support
+- Multilingual support (English & Tamil)
+- Wearable device integration
+- Real-time location sharing
+- Potential to save lives during critical situations
+
+### Cons
+- Detection accuracy depends on the quality of sensor data.
+- Requires integration with real hospitals, ambulances, and emergency services for full deployment.
+- GPS and network limitations may affect performance in certain areas.
+- Hospital and emergency service data must be updated regularly.
+
+# Screenshots
+<img width="1898" height="908" alt="{54E6AA8D-6054-4522-BBD9-3DA30169C29D}" src="https://github.com/user-attachments/assets/bded5828-115a-4153-a9e8-1f7b7869c06d" />
+
+<img width="1899" height="900" alt="{9AE4D7FD-F422-457B-B920-B88FB87F73F7}" src="https://github.com/user-attachments/assets/5859c8ef-9403-4388-b54d-e5bb393f7eb7" />
+
+<img width="1897" height="901" alt="{622C4808-631C-4937-A778-2D13330FC104}" src="https://github.com/user-attachments/assets/d56c8e19-ce2e-4268-9d0c-443599146e64" />
+
+<img width="1892" height="903" alt="Screenshot 2026-05-31 095833" src="https://github.com/user-attachments/assets/e2bf8d52-e5ad-4cf2-b942-97b25d3c4115" />
+
+<img width="1897" height="909" alt="Screenshot 2026-05-31 095852" src="https://github.com/user-attachments/assets/53292a34-aecc-4487-af57-8a540240dd41" />
+
+<img width="1890" height="897" alt="Screenshot 2026-05-31 095907" src="https://github.com/user-attachments/assets/1cfaf645-b21d-4bf0-9333-87c4d4ccc0ac" />
+
+<img width="1895" height="902" alt="Screenshot 2026-05-31 100150" src="https://github.com/user-attachments/assets/25196a37-824f-42bb-8e87-02113b77d94a" />
+
+# Libraries
+## Technologies & Libraries Used
+### 1. Frontend Development
+- React 19 – Building interactive and dynamic user interfaces.
+- TypeScript – Type-safe development for better code quality and maintainability.
+- Vite – Fast development environment and optimized production builds.
+- TanStack Start – Full-stack React framework used as the project foundation.
+### 2. UI & Component Libraries
+- Radix UI – Accessible and customizable UI components.
+- shadcn/ui (built using Radix UI) – Modern reusable component system.
+- Lucide React – Lightweight icon library used throughout the application.
+- Vaul – Drawer and mobile-friendly panel components.
+- Sonner – Toast notifications and alert messages.
+### 3. Styling & Design
+- Tailwind CSS 4 – Utility-first CSS framework for responsive design.
+- tailwind-merge – Utility for merging Tailwind classes efficiently.
+- tw-animate-css – Animation support for UI interactions.
+- class-variance-authority (CVA) – Component variant management.
+- clsx – Conditional class name handling.
+### 4. Data Visualization
+- Recharts – Interactive charts and analytics dashboards.
+### 5. Forms & Validation
+- React Hook Form – Efficient form handling and state management.
+- Zod – Schema validation for user inputs.
+- @hookform/resolvers – Integration between React Hook Form and Zod.
+### 6. State Management & Routing
+- TanStack React Query – Data fetching, caching, and API state management.
+- TanStack React Router – Client-side routing and navigation.
+### 7. User Experience Enhancements
+- Embla Carousel – Carousel and slider functionality.
+- React Resizable Panels – Resizable layouts and panels.
+- CMDK – Command menu and search interface support.
+### 8. Development & Code Quality
+- ESLint – Code quality and error checking.
+- Prettier – Code formatting.
+- TypeScript ESLint – TypeScript linting support.
